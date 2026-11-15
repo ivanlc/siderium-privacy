@@ -3,7 +3,7 @@ lang: es
 ---
 # Política de privacidad — Reloj Astrológico
 
-_Última actualización: 12 de noviembre de 2026_
+_Última actualización: 15 de noviembre de 2026_
 
 **Reloj Astrológico** (en adelante, «la app») no recopila, almacena en servidores ni vende datos personales. Lo que escribes solo sale de tu dispositivo cuando tú lo envías.
 
@@ -14,6 +14,7 @@ _Última actualización: 12 de noviembre de 2026_
 - **Cartas que tú escribes.** Si creas cartas natales, la app guarda lo que tú introduces: un nombre (el que quieras), la fecha, la hora y el lugar de nacimiento, y si una de ellas es «tu carta». Pueden ser de otras personas. Esos datos se almacenan **solo en tu dispositivo** y se eliminan al borrar la carta, al desinstalar la app o al borrar sus datos.
 - **Sin copia de seguridad.** La app queda excluida de la copia de seguridad de Android y del traspaso entre dispositivos: tus cartas no se copian a tu cuenta de Google. Por eso mismo **no se recuperan** al cambiar de teléfono o reinstalar la app; para llevarlas a otro dispositivo usa «Enviar carta».
 - **Ajustes locales.** El idioma, el tema, la zona horaria de visualización y las opciones de cálculo que elijas (puntos visibles, tipo de nodo, sistema de casas), también solo en tu dispositivo.
+- **Avisos de tránsitos.** Si creas avisos, la app guarda su configuración (planetas, aspectos, orbe y cartas elegidas) **solo en tu dispositivo** y programa notificaciones locales en él. No se envía nada a ningún sitio.
 - **Hora y zona horaria.** La app usa el reloj y la zona horaria de tu dispositivo para mostrar la fecha; no se envían a ningún sitio.
 - **Lista de ciudades incluida en la app.** Para elegir el lugar de nacimiento, la app lleva una lista de ciudades y zonas horarias de [GeoNames](https://www.geonames.org/) (licencia CC BY 4.0) y la base de datos de zonas horarias IANA. Se consultan en tu dispositivo; no se envía lo que buscas.
 
@@ -27,7 +28,7 @@ Nada de esto ocurre por sí solo: siempre empieza con un botón que pulsas tú.
 - **Datos de otras personas.** Si guardas o envías la carta de otra persona, asegúrate de tener su consentimiento.
 
 ## Permisos
-La app no solicita permisos especiales del sistema ni tiene acceso a internet.
+La app no tiene acceso a internet. Solo pide, si creas un aviso de tránsito, el permiso de **notificaciones** para mostrártelos, y usa el aviso de **reinicio del teléfono** para volver a programarlos. No pide ubicación, contactos ni otros permisos sensibles.
 
 ## Menores
 La app no recoge datos de nadie, incluidos menores de edad.

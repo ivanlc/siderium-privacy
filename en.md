@@ -3,7 +3,7 @@ lang: en
 ---
 # Privacy Policy — AstroClock
 
-_Last updated: November 12, 2026_
+_Last updated: November 15, 2026_
 
 **AstroClock** ("the app") does not collect, upload to servers or sell personal data. What you type leaves your device only when you send it yourself.
 
@@ -13,6 +13,7 @@ _Last updated: November 12, 2026_
 - **No analytics, ads or trackers.** It includes no third-party analytics, advertising or tracking SDKs.
 - **Charts you enter.** If you create natal charts, the app stores what you type: a name (any name), the birth date, time and place, and whether one of them is "your chart". They can belong to other people. This data is stored **only on your device** and is removed when you delete the chart, uninstall the app or clear its data.
 - **No backup.** The app is excluded from Android backup and from device-to-device transfer: your charts are not copied to your Google account. For the same reason they are **not restored** when you change phones or reinstall the app; to move them to another device, use "Send chart".
+- **Transit alerts.** If you create alerts, the app stores their setup (planets, aspects, orb and chosen charts) **only on your device** and schedules local notifications there. Nothing is sent anywhere.
 - **Local settings.** Your language, theme, display time zone and the calculation options you choose (visible points, node type, house system), also only on your device.
 - **Time and time zone.** The app uses your device clock and time zone to show the date; they are not sent anywhere.
 - **City list bundled in the app.** To pick a birth place, the app ships a list of cities and time zones from [GeoNames](https://www.geonames.org/) (CC BY 4.0 licence) and the IANA time zone database. They are queried on your device; what you search for is not sent anywhere.
@@ -27,7 +28,7 @@ None of this happens by itself: it always starts with a button you press.
 - **Other people's data.** If you save or send another person's chart, make sure you have their consent.
 
 ## Permissions
-The app requests no special system permissions and has no internet access.
+The app has no internet access. It only asks, if you create a transit alert, for the **notifications** permission to show them, and uses the **phone restart** signal to schedule them again. It does not ask for location, contacts or any other sensitive permission.
 
 ## Children
 The app collects no data from anyone, including children.
